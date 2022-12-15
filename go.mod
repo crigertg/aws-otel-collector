@@ -359,3 +359,5 @@ replace github.com/go-openapi/spec v0.20.5 => github.com/go-openapi/spec v0.20.6
 // Also see the source version from the datadog agent
 // https://github.com/DataDog/datadog-agent/blob/main/go.mod#L26
 replace github.com/theupdateframework/go-tuf v0.3.1 => github.com/DataDog/go-tuf v0.3.0--fix-localmeta
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter => ../opentelemetry-collector-contrib/exporter/awsemfexporter
